@@ -1,0 +1,205 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gclogo img {
+    width: 90px;
+    top: 2px;
+    left: 20px;
+    position: absolute;
+    float:  right;
+}
+
+.gclogo h3 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 12px;
+    font-size: 45px;
+    left: 120px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(14, 78, 64);
+    cursor: context-menu;
+}
+
+nav {
+    position: relative;
+    background-color: white;
+    height: 90px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+a {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: white;
+    font-size: 18px;
+    float: right;
+    padding: 10px 17px;
+    border: none;
+    margin: 10px;
+    margin-top: 28px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+    outline-style: none;
+}
+
+#logout input {
+    background-color: rgb(211, 68, 68);
+    color: white;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px;
+    float: right;
+    padding: 8px 23px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 27.5px;
+    outline-style: none;
+}
+
+#logout input:hover {
+    background-color: rgb(165, 35, 35);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(12, 136, 109);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+#account {
+    background-color: rgb(12, 136, 109);
+    color: white;
+}
+
+.ChangePassBody {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    border-radius: 10px;
+    width: 700px;
+    padding: 15px;
+    left: 24%;
+    height: 320px;
+    box-shadow: 0px 0px 7px 0px rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
+}
+
+.ChangePassBody p {
+    position: relative;
+    left: 198px;
+    top: -40px;
+    cursor: context-menu;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;  
+}
+
+.inputs input {
+    position: relative;
+    left: 203px;
+    padding: 12px;
+    border-radius: 10px;
+    outline-style: none;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    top: 5px;
+}
+
+.ChangePassBody #button button{
+    position: relative;
+    left: 203px;
+    outline-style: none;
+    border:none;
+    background-color: rgb(12, 136, 109);
+    position: relative;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 25px;
+    width: 150px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ChangePassBody #button button:hover{
+    transition: 0.2s;
+    background-color: rgb(12, 112, 91);
+}
+
+.info input {
+    position: relative;
+    right: 220px;
+    top: 85px;
+    outline-style: none;
+    border: none;
+    font-size: 21px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;  
+    width: 230px;
+}
+
+.info p {
+    font-size: 23px;
+    padding: 5px;
+}
+
+.info {
+    position: relative;
+}
+
+.info input {
+    cursor: context-menu;
+}
+
+.message .error {
+    background-color: rgb(245, 141, 141);
+    position: absolute;
+    top: 44px;
+    left: 440px;
+    color: #A94442;
+    padding: 10px;
+    width: 230px;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 15px;
+}
+
+.message .success {
+    background-color: rgb(17, 202, 162);
+    position: absolute;
+    top: 44px;
+    left: 428px;
+    color:rgb(40, 122, 103);
+    padding: 10px;
+    width: 260px;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 15px;
+}
+
+.message p {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.stud_Info input{
+    font-weight: lighter;
+}

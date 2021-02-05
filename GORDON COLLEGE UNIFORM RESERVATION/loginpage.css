@@ -1,0 +1,103 @@
+body {
+    background: url("background image/background.png") no-repeat center center fixed;
+    background-size: auto;
+    width: 100%;
+    position: fixed;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.content h2 {
+    position: absolute;
+    top: 230px;
+    left: 10%;
+    font-size: 75px;
+    color: rgb(14, 78, 64);
+    font-family: 'Oswald', sans-serif;
+}
+
+.content h3 {
+    position: absolute;
+    top: 325px;
+    left: 23.5%;
+    font-size: 40px;
+    color: rgb(24, 22, 22);
+    font-family: 'Oswald', sans-serif;
+}
+
+.gclogo img {
+    max-width: 130px; 
+    max-height: 130px;
+    position: relative;
+    top: 145px;
+    left: 65%;
+}
+
+#LoginForm {
+    float: right;
+    position: relative;
+    top: 75px;
+    right: 210px;
+    background-color: rgb(255, 255, 255);
+    padding: 70px 25px 35px 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgb(71, 71, 71);
+    z-index: -1;
+}
+
+
+#studentID, #password, #loginbutton{
+    padding: 20px;  
+    height: 20px;
+}
+
+#studentID i {
+    position: absolute;
+    padding: 10px;
+    top: 37px;
+}
+.error {
+    background-color: rgb(245, 141, 141);
+    color: #A94442;
+    padding: 10px;
+    width: 83%;
+    border-radius: 5px;
+ }
+ 
+
+input {
+    height: 50px;
+    width: 276px;
+    border: 1px solid rgb(177, 174, 174);
+    border-radius: 5px;
+    padding: 0px 20px;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+
+input:hover {
+    transition: 0.5s;
+    border: 1px solid rgb(12, 179, 12);
+}
+
+#login input {
+    padding: 12px;
+    width: 320px;
+    border-radius: 1px solid;
+    background-color: rgb(12, 136, 109);
+    outline: none;
+    border: none;
+    color: white;
+    font-weight:lighter;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;  
+    top: 20px;
+    left: 18px;
+}
+

@@ -1,0 +1,216 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.gclogo img {
+    width: 90px;
+    top: 2px;
+    left: 20px;
+    position: absolute;
+    float:  right;
+}
+
+.gclogo h3 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 12px;
+    font-size: 45px;
+    left: 120px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(14, 78, 64);
+    cursor: context-menu;
+}
+nav {
+    position: relative;
+    background-color: white;
+    height: 90px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+a {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.button {
+    background-color: white;
+    font-size: 18px;
+    float: right;
+    padding: 10px 17px;
+    border: none;
+    margin: 10px;
+    margin-top: 28px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+#logout input {
+    background-color: rgb(211, 68, 68);
+    color: white;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px;
+    float: right;
+    padding: 8px 23px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 27.5px;
+}
+
+#logout input:hover {
+    background-color: rgb(165, 35, 35);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(12, 136, 109);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#about {
+    background-color: rgb(12, 136, 109);
+    color: white;
+}
+
+.content {
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    margin: 25px 60px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 0px rgb(165, 165, 165);
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px;
+}
+
+
+.content p {
+    padding: 5px;
+}
+
+.content h2,h3 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.content h3 {
+    font-size: 30px;
+}
+
+.ley img{
+        padding: 10px;
+        margin: 5px;
+        max-width:9%;
+        border-radius: 50%;
+}
+
+.ley h2 {
+    color: rgb(12, 136, 109);
+    float: left;
+    text-align: justify;
+    position: absolute;
+    left: 160px;
+    font-size: 25px;
+    top: 64%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+.ley p{
+    float: left;
+    text-align: justify;
+    position: absolute;
+    left: 155px;
+    top: 70%;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+
+
+.bev img {
+    padding: 10px;
+    margin: 5px;
+    max-width:9%;
+    border-radius: 50%;
+    float:center;
+    left: 28%;
+    top: 57%;
+    position: absolute;
+}
+
+.bev h2 {
+    color: rgb(12, 136, 109);
+    float: left;
+    text-align: justify;
+    position: absolute;
+    left: 39%;
+    font-size: 25px;
+    top: 64%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+
+.bev p{
+    float: left;
+    text-align: justify;
+    position: absolute;
+    left: 38.6%;
+    top: 70%;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+
+
+.fat img {
+    padding: 10px;
+    margin: 5px;
+    max-width:9%;
+    border-radius: 50%;
+    float:center;
+    left: 62.5%;
+    top: 57%;
+    position: absolute;
+}
+
+.fat h2 {
+    color: rgb(12, 136, 109);
+    float: left;
+    text-align: justify;
+    position: absolute;
+    left: 75%;
+    font-size: 25px;
+    top: 64%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+
+.fat p{
+    float: left;
+    text-align: justify;
+    position: absolute;
+    left: 74.5%;
+    top: 70%;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+
+.content {
+    cursor:  context-menu;
+}
